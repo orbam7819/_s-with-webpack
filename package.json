@@ -1,0 +1,48 @@
+{
+  "name": "_sww",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "dev": "webpack -w",
+    "build": "webpack --mode=production"
+  },
+  "author": "Ambrogio Piredda",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.5",
+    "@fortawesome/fontawesome-free": "^5.11.2",
+    "autoprefixer": "^9.7.3",
+    "babel-loader": "^8.0.6",
+    "browser-sync": "^2.26.7",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "css-loader": "^3.3.0",
+    "eslint": "^6.7.2",
+    "eslint-loader": "^3.0.3",
+    "file-loader": "^5.0.2",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.13.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.1",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "jquery": "^3.4.1",
+    "lozad": "^1.14.0"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "last 2 version"
+  ]
+}
